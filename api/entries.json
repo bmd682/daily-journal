@@ -1,11 +1,18 @@
 {
-    "entries": [
-        {
-        "id": 1,
-        "date": "May 23 2020",
-        "concepts": "GitHub one-way street, Flexbox, Linux, Bash, and how to push to github",
-        "entry": "Learned minor html and css, and how to push and update projects on github",
-        "mood": "happy"
-        }
-    ]
+  "entries": [
+    {
+      "date": "May 23 2020",
+      "concepts": "GitHub one-way street, Flexbox, Linux, Bash, and how to push to github",
+      "entry": "Learned minor html and css, and how to push and update projects on github",
+      "mood": "Happy",
+      "id": 1
+    },
+    {
+      "date": "May 26 2020",
+      "concepts": "Build website with team using github",
+      "entry": "Started group project with Sisi, David Bruce, and Jon Riley. Helped Sisi with merge conflicts.",
+      "mood": "Excited",
+      "id": 2
+    }
+  ]
 }
