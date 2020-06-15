@@ -1,6 +1,9 @@
-const journalEntries = []
+import API from "./data.js"
+import journalList from "./entryList.js"
 
-const journalEntry = {}
+// const journalEntries = []
+
+// const journalEntry = {}
 
 /*
     Main application logic that uses the functions and objects
