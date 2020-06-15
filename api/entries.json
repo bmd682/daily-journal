@@ -2,9 +2,9 @@
     "entries": [
         {
         "id": 1,
-        "date": "May 22 2020",
-        "concepts": "GitHub one-way street, Flexbox, Linux and Bash",
-        "entry": "So far, so good! Stay on target.",
+        "date": "May 23 2020",
+        "concepts": "GitHub one-way street, Flexbox, Linux, Bash, and how to push to github",
+        "entry": "Learned minor html and css, and how to push and update projects on github",
         "mood": "happy"
         }
     ]
