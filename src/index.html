@@ -7,34 +7,41 @@
     <link rel="stylesheet" href="journal.css">
 </head>
 <body>
-    <h1>Daily Journal</h1>
-    <form action="">
-        <fieldset class="DoE">
-            <label for="journalDate"><strong>Date of Entry</strong></label>
-            <input type="date" name="journalDate" id="journalDate">
-        </fieldset>
-        <fieldset class="DoE">
-            <label for="conceptCovered">Concepts Covered</label>
-            <input type="text" name="conceptCovered" id="conceptCovered">
-        </fieldset>
-        <fieldset class="DoE">
-            <label for="journalEntry">Journal Entry</label>
-            <input type="text" name="journalEntry" id="journalEntry">
-        </fieldset>
-        <fieldset class="DoE">
-            <label for="mood">Mood for the Day</label>
-            <select id="mood" name="mood">
-                <option value="excited">Excited</option>
-                <option value="happy">Happy</option>
-                <option value="nervous">Nervous</option>
-                <option value="sad">Sad</option>
-                <option value="curious">Curious</option>
-            </select>
-        </fieldset>
-        <fieldset>
-            <input type="submit" value="submit">
-        </fieldset>
-    </form>
+    <main>
+        <h1>Daily Journal</h1>
+        <form action="">
+            <fieldset class="DoE">
+                <label for="journalDate"><strong>Date of Entry</strong></label>
+                <input type="date" name="journalDate" id="journalDate">
+            </fieldset>
+            <fieldset class="DoE">
+                <label for="conceptCovered">Concepts Covered</label>
+                <input type="text" name="conceptCovered" id="conceptCovered">
+            </fieldset>
+            <fieldset class="DoE">
+                <label for="journalEntry">Journal Entry</label>
+                <input type="text" name="journalEntry" id="journalEntry">
+            </fieldset>
+            <fieldset class="DoE">
+                <label for="mood">Mood for the Day</label>
+                <select id="mood" name="mood">
+                    <option value="excited">Excited</option>
+                    <option value="happy">Happy</option>
+                    <option value="nervous">Nervous</option>
+                    <option value="sad">Sad</option>
+                    <option value="curious">Curious</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <input type="submit" value="submit">
+            </fieldset>
+        </form>
+
+        <article class="entryLog">
+
+        </article>
+
+    </main>
     
     <script src="src/scripts/journal.js"></script>
 </body>
